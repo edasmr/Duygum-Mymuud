@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/analogo"
+    tools:context=".ui.fragment.PiskologFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lemon"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Psikolog Görüşmesi"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/psikolog_logo" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lemon"
+            android:gravity="center"
+            android:text="Çok Yakında..."
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:gravity="center"
+            android:text="Canlı psikologlarımızdan hem görüntülü hem sesli destek alarak sorunlarınızı çözebileceksiniz."
+            android:textSize="18dp"
+            android:layout_margin="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

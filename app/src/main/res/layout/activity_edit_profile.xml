@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/analogo"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+    tools:context=".EditProfileActivity">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PROFİL BİLGİLERİ"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="67dp" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Kullanıcı Adı:"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <EditText
+                android:id="@+id/kuladi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2D000000"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                tools:hint="edasmr"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                tools:ignore="MissingConstraints,RtlCompat"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Adı ve Soyadı : "
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <EditText
+                android:id="@+id/nameAndSurname"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#2D000000"
+                android:gravity="center_vertical"
+                tools:hint="eda sümer"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints,RtlCompat"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Özgeçmiş:"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <EditText
+                android:id="@+id/bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#2D000000"
+                android:gravity="center_vertical"
+                tools:hint="çankaya üni bilgisayar mühendisi bölümünden mezun oldum"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints,RtlCompat"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Konum:"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2D000000"
+                android:gravity="center_vertical"
+                tools:hint="Ankara"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints,RtlCompat"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Doğum Tarihi :"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+            <EditText
+                android:id="@+id/birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#2D000000"
+                android:gravity="center_vertical"
+                tools:hint="16/10/1998"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints,RtlCompat"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="112dp" />
+
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_circle"
+                android:text="GÜNCELLE"
+                android:layout_margin="25dp"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
