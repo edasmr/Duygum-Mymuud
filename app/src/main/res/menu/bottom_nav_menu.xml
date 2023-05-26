@@ -5,9 +5,9 @@
         android:title="Anasayfa"
         android:icon="@drawable/ic_home"/>
 
-    <item android:id="@+id/profil_nav"
-        android:title="Profil"
-        android:icon="@drawable/ic_profile"/>
+    <item android:id="@+id/notification_nav"
+        android:title="Bildirim"
+        android:icon="@drawable/ic_notifications"/>
 
 
 

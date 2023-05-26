@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "948265069845",
+    "project_id": "duygum-8b399",
+    "storage_bucket": "duygum-8b399.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948265069845:android:2b416faa38e802f32a4d1c",
+        "android_client_info": {
+          "package_name": "com.intersonik.duygum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948265069845-b1inedsmvnb2dnf9jc90aef7mqfci9dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2guWbEcvlNgTBPgBPPrr2e66SlzUyjso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948265069845-b1inedsmvnb2dnf9jc90aef7mqfci9dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

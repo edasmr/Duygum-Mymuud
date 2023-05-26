@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/notification_nav"
-        android:name="com.intersonik.duygum.ui.fragment.ProfilFragment"
+        android:name="com.intersonik.duygum.ui.fragment.BildirimFragment"
         android:label="ProfilFragment"
         tools:layout="@layout/fragment_profil" />
 

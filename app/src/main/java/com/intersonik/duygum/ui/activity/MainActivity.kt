@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.home_nav, R.id.profil_nav, R.id.sohbet_nav, R.id.ag_nav, R.id.psikolog_nav
+                R.id.home_nav, R.id.notification_nav, R.id.psikolog_nav
             )
         )
         supportActionBar?.hide()
