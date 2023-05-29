@@ -51,6 +51,7 @@ class SignInActivity : AppCompatActivity() {
                         when (it.data?.httpCode) {
                             200 -> {
                                 viewModel.setToken(it.data.message)
+
                                 Toast.makeText(this, "HOŞGELDİNİZ", Toast.LENGTH_SHORT).show()
                                 startActivity(Intent(this, MainActivity::class.java))
                                 finish()
