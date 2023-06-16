@@ -3,12 +3,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/analogo"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.fragment.BildirimFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+          android:layout_width="80dp"
+          android:layout_height="80dp"
+          android:id="@+id/notification_img"
+          app:layout_constraintLeft_toLeftOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="10dp"
+          android:src="@drawable/app_icon"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:id="@+id/notification_title"
+          android:text="Bugün Kendini Nasıl Hissediyorsun ?"
+          android:textColor="@color/white"
+          android:textSize="14dp"
+          android:layout_marginLeft="10dp"
+          android:textStyle="bold"
+          app:layout_constraintLeft_toLeftOf="@+id/notification_img"
+          app:layout_constraintLeft_toRightOf="@+id/notification_img"
+          app:layout_constraintStart_toEndOf="@+id/notification_img"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Duygunu paylaş"
+          android:layout_marginLeft="10dp"
+          android:textStyle="bold"
+          android:textSize="10dp"
+          android:textColor="@color/white"
+          android:id="@+id/notification_btn"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/btn_circle_10_padding"
+          app:layout_constraintLeft_toLeftOf="@+id/notification_img"
+          app:layout_constraintLeft_toRightOf="@+id/notification_img"
+          app:layout_constraintStart_toEndOf="@+id/notification_img"
+
+          app:layout_constraintTop_toBottomOf="@+id/notification_title" />
+
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
